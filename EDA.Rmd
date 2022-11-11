@@ -1,0 +1,99 @@
+---
+title: "EDA."
+author: "STAT 625 project"
+date: "2022-11-11"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## I mean a little bit overview on the EDA so far indicates poisson regression might not be a fit this well. Check through and lemme know what you guys think????
+
+
+
+
+## Packages
+```{r packages}
+library("car")
+library("tidyverse")
+library("GGally")
+
+```
+
+## Data
+
+```{r import Data}
+project = read.csv(file.choose(),header=T)
+#View(project)
+```
+
+
+## Summary statistics
+
+```{r overall summary stats}
+
+summary(project[,3:17])
+barplot(table(project$leage),col="pink")
+var(project[,c(3)])
+
+```
+
+ A simple descriptive stats indicates that the conditional mean of the response variable (Goals) is smaller than it's conditional variance. This indicates that fitting poisson regression to this model will result in overdispersion. A more suitable model to correct this is Negative Binomial.
+ 
+ Also a quixk a look over the max and min value of the predictors indicates theres no particular extreme reason to log-transform them since most of them are within a small range scale.
+ 
+ Other observations can be seen on the scatter plot matrices below
+ 
+ 
+ 
+ 
+ 
+## Summary by leagues
+
+```{r summary based on leagues}
+by(project[,3:17],project$leage,summary)
+```
+
+Among the five mnajor leagues, it is interesing to note that the avarage number of leagues are consistently 51-52 except for la liga that has an average score of 46 for that season even after using averagely the most number of players. The spread of this goal is analyzed in a density plot below.
+
+
+
+## Relationship between Goals and other predictor variables
+
+```{r}
+project %>% mutate(leage=factor(leage)) %>% 
+  ggpairs(columns=c(3:8),
+          aes(color=leage),
+          upper=list(continuous=wrap('cor',size=5)),
+          lower=list(combo=wrap("facethist",bins=30)),
+          diag=list(continuous=wrap("densityDiag"),alpha=0.5))
+```
+
+
+
+
+```{r}
+project %>% mutate(leage=factor(leage)) %>% 
+  ggpairs(columns=c(3,9:13),
+          aes(color=leage),
+          upper=list(continuous=wrap('cor',size=5)),
+          lower=list(combo=wrap("facethist",bins=30)),
+          diag=list(continuous=wrap("densityDiag"),alpha=0.5))
+```
+
+
+
+
+```{r warning=FALSE}
+project %>% mutate(leage=factor(leage)) %>% 
+  ggpairs(columns=c(3,14:17),
+          aes(color=leage),
+          upper=list(continuous=wrap('cor',size=5)),
+          lower=list(combo=wrap("facethist",bins=30)),
+          diag=list(continuous=wrap("densityDiag"),alpha=0.5))
+```
+
