@@ -1,101 +1,99 @@
-,,,# Pl,Standard,Standard,Standard,Standard,Standard
-,,,,Sh,SoT,Gls,PK,FK
-league,season,team,,,,,,
-ENG-Premier League,2122,Arsenal,27,581,186,60,5,22
-ENG-Premier League,2122,Aston Villa,31,461,159,50,3,20
-ENG-Premier League,2122,Brentford,29,436,141,46,6,11
-ENG-Premier League,2122,Brighton,26,482,141,40,4,15
-ENG-Premier League,2122,Burnley,23,405,119,32,1,14
-ENG-Premier League,2122,Chelsea,26,583,200,75,8,26
-ENG-Premier League,2122,Crystal Palace,24,404,140,50,6,13
-ENG-Premier League,2122,Everton,33,430,130,42,6,18
-ENG-Premier League,2122,Leeds United,29,480,142,42,5,13
-ENG-Premier League,2122,Leicester City,28,433,164,62,2,14
-ENG-Premier League,2122,Liverpool,27,721,237,94,7,13
-ENG-Premier League,2122,Manchester City,26,704,237,96,7,17
-ENG-Premier League,2122,Manchester Utd,29,503,179,56,3,19
-ENG-Premier League,2122,Newcastle Utd,29,446,142,41,3,15
-ENG-Premier League,2122,Norwich City,28,370,104,21,3,18
-ENG-Premier League,2122,Southampton,25,478,161,41,4,24
-ENG-Premier League,2122,Tottenham,25,486,185,63,5,16
-ENG-Premier League,2122,Watford,30,397,123,33,1,24
-ENG-Premier League,2122,West Ham,25,443,142,58,4,13
-ENG-Premier League,2122,Wolves,26,401,133,35,1,13
-ESP-La Liga,2122,Alavés,33,373,111,29,6,15
-ESP-La Liga,2122,Athletic Club,26,460,150,40,3,11
-ESP-La Liga,2122,Atlético Madrid,26,458,152,63,4,8
-ESP-La Liga,2122,Barcelona,38,511,177,68,6,15
-ESP-La Liga,2122,Betis,31,509,182,60,6,21
-ESP-La Liga,2122,Celta Vigo,25,405,135,43,3,14
-ESP-La Liga,2122,Cádiz,33,405,118,35,3,14
-ESP-La Liga,2122,Elche,28,334,106,39,1,8
-ESP-La Liga,2122,Espanyol,34,403,128,39,5,24
-ESP-La Liga,2122,Getafe,31,404,111,31,3,29
-ESP-La Liga,2122,Granada,32,421,131,43,3,12
-ESP-La Liga,2122,Levante,31,430,146,51,8,14
-ESP-La Liga,2122,Mallorca,33,440,131,33,6,23
-ESP-La Liga,2122,Osasuna,29,425,114,37,6,11
-ESP-La Liga,2122,Rayo Vallecano,28,500,133,38,4,27
-ESP-La Liga,2122,Real Madrid,31,645,243,80,8,21
-ESP-La Liga,2122,Real Sociedad,32,430,143,40,9,18
-ESP-La Liga,2122,Sevilla,33,430,139,51,2,10
-ESP-La Liga,2122,Valencia,34,394,129,45,8,18
-ESP-La Liga,2122,Villarreal,29,449,164,62,5,8
-FRA-Ligue 1,2122,Angers,30,384,123,41,9,18
-FRA-Ligue 1,2122,Bordeaux,39,446,145,50,2,16
-FRA-Ligue 1,2122,Brest,25,394,138,48,7,12
-FRA-Ligue 1,2122,Clermont Foot,28,435,134,36,2,10
-FRA-Ligue 1,2122,Lens,28,511,183,60,5,14
-FRA-Ligue 1,2122,Lille,26,461,150,45,4,15
-FRA-Ligue 1,2122,Lorient,29,442,146,35,3,32
-FRA-Ligue 1,2122,Lyon,30,546,192,64,8,18
-FRA-Ligue 1,2122,Marseille,27,489,157,61,10,28
-FRA-Ligue 1,2122,Metz,36,370,112,33,1,16
-FRA-Ligue 1,2122,Monaco,27,445,153,62,9,17
-FRA-Ligue 1,2122,Montpellier,26,433,151,48,3,38
-FRA-Ligue 1,2122,Nantes,26,420,145,53,5,13
-FRA-Ligue 1,2122,Nice,27,442,144,52,8,12
-FRA-Ligue 1,2122,Paris S-G,36,555,202,88,7,29
-FRA-Ligue 1,2122,Reims,35,389,137,42,4,5
-FRA-Ligue 1,2122,Rennes,28,548,194,81,4,14
-FRA-Ligue 1,2122,Saint-Étienne,39,434,141,41,5,23
-FRA-Ligue 1,2122,Strasbourg,26,470,150,56,6,10
-FRA-Ligue 1,2122,Troyes,35,379,120,35,6,9
-GER-Bundesliga,2122,Arminia,26,361,109,26,2,10
-GER-Bundesliga,2122,Augsburg,26,362,117,39,5,11
-GER-Bundesliga,2122,Bayern Munich,30,668,255,92,5,12
-GER-Bundesliga,2122,Bochum,28,409,136,37,4,17
-GER-Bundesliga,2122,Dortmund,33,442,165,81,11,20
-GER-Bundesliga,2122,Eint Frankfurt,27,446,136,43,1,14
-GER-Bundesliga,2122,Freiburg,26,457,153,55,5,20
-GER-Bundesliga,2122,Greuther Fürth,29,309,96,26,5,13
-GER-Bundesliga,2122,Hertha BSC,36,365,119,35,3,15
-GER-Bundesliga,2122,Hoffenheim,32,452,150,55,0,13
-GER-Bundesliga,2122,Köln,26,467,149,52,1,9
-GER-Bundesliga,2122,Leverkusen,29,453,184,76,2,11
-GER-Bundesliga,2122,M'Gladbach,26,489,174,54,5,14
-GER-Bundesliga,2122,Mainz 05,28,465,151,49,4,22
-GER-Bundesliga,2122,RB Leipzig,29,429,169,72,8,18
-GER-Bundesliga,2122,Stuttgart,34,449,153,40,1,10
-GER-Bundesliga,2122,Union Berlin,28,408,149,50,5,7
-GER-Bundesliga,2122,Wolfsburg,30,416,137,42,3,19
-ITA-Serie A,2122,Atalanta,32,598,167,62,5,16
-ITA-Serie A,2122,Bologna,36,434,143,43,4,14
-ITA-Serie A,2122,Cagliari,33,420,117,34,3,17
-ITA-Serie A,2122,Empoli,28,490,151,47,7,16
-ITA-Serie A,2122,Fiorentina,28,501,172,59,9,25
-ITA-Serie A,2122,Genoa,40,397,106,26,6,12
-ITA-Serie A,2122,Hellas Verona,31,455,152,63,7,15
-ITA-Serie A,2122,Inter,27,667,239,83,7,13
-ITA-Serie A,2122,Juventus,32,517,166,56,5,18
-ITA-Serie A,2122,Lazio,27,445,185,74,7,14
-ITA-Serie A,2122,Milan,28,592,187,66,5,23
-ITA-Serie A,2122,Napoli,27,565,186,74,10,25
-ITA-Serie A,2122,Roma,29,592,184,58,7,21
-ITA-Serie A,2122,Salernitana,42,426,130,32,4,20
-ITA-Serie A,2122,Sampdoria,34,386,118,42,2,12
-ITA-Serie A,2122,Sassuolo,29,569,204,60,7,14
-ITA-Serie A,2122,Spezia,30,381,127,38,3,17
-ITA-Serie A,2122,Torino,31,470,142,43,6,16
-ITA-Serie A,2122,Udinese,29,505,181,58,3,19
-ITA-Serie A,2122,Venezia,39,349,113,34,3,22
+league,team,No.Pl,no.sh,SoT,Gls,PK,FK
+ENG-Premier League,Arsenal,27,581,186,60,5,22
+ENG-Premier League,Aston Villa,31,461,159,50,3,20
+ENG-Premier League,Brentford,29,436,141,46,6,11
+ENG-Premier League,Brighton,26,482,141,40,4,15
+ENG-Premier League,Burnley,23,405,119,32,1,14
+ENG-Premier League,Chelsea,26,583,200,75,8,26
+ENG-Premier League,Crystal Palace,24,404,140,50,6,13
+ENG-Premier League,Everton,33,430,130,42,6,18
+ENG-Premier League,Leeds United,29,480,142,42,5,13
+ENG-Premier League,Leicester City,28,433,164,62,2,14
+ENG-Premier League,Liverpool,27,721,237,94,7,13
+ENG-Premier League,Manchester City,26,704,237,96,7,17
+ENG-Premier League,Manchester Utd,29,503,179,56,3,19
+ENG-Premier League,Newcastle Utd,29,446,142,41,3,15
+ENG-Premier League,Norwich City,28,370,104,21,3,18
+ENG-Premier League,Southampton,25,478,161,41,4,24
+ENG-Premier League,Tottenham,25,486,185,63,5,16
+ENG-Premier League,Watford,30,397,123,33,1,24
+ENG-Premier League,West Ham,25,443,142,58,4,13
+ENG-Premier League,Wolves,26,401,133,35,1,13
+ESP-La Liga,Alavés,33,373,111,29,6,15
+ESP-La Liga,Athletic Club,26,460,150,40,3,11
+ESP-La Liga,Atlético Madrid,26,458,152,63,4,8
+ESP-La Liga,Barcelona,38,511,177,68,6,15
+ESP-La Liga,Betis,31,509,182,60,6,21
+ESP-La Liga,Celta Vigo,25,405,135,43,3,14
+ESP-La Liga,Cádiz,33,405,118,35,3,14
+ESP-La Liga,Elche,28,334,106,39,1,8
+ESP-La Liga,Espanyol,34,403,128,39,5,24
+ESP-La Liga,Getafe,31,404,111,31,3,29
+ESP-La Liga,Granada,32,421,131,43,3,12
+ESP-La Liga,Levante,31,430,146,51,8,14
+ESP-La Liga,Mallorca,33,440,131,33,6,23
+ESP-La Liga,Osasuna,29,425,114,37,6,11
+ESP-La Liga,Rayo Vallecano,28,500,133,38,4,27
+ESP-La Liga,Real Madrid,31,645,243,80,8,21
+ESP-La Liga,Real Sociedad,32,430,143,40,9,18
+ESP-La Liga,Sevilla,33,430,139,51,2,10
+ESP-La Liga,Valencia,34,394,129,45,8,18
+ESP-La Liga,Villarreal,29,449,164,62,5,8
+FRA-Ligue 1,Angers,30,384,123,41,9,18
+FRA-Ligue 1,Bordeaux,39,446,145,50,2,16
+FRA-Ligue 1,Brest,25,394,138,48,7,12
+FRA-Ligue 1,Clermont Foot,28,435,134,36,2,10
+FRA-Ligue 1,Lens,28,511,183,60,5,14
+FRA-Ligue 1,Lille,26,461,150,45,4,15
+FRA-Ligue 1,Lorient,29,442,146,35,3,32
+FRA-Ligue 1,Lyon,30,546,192,64,8,18
+FRA-Ligue 1,Marseille,27,489,157,61,10,28
+FRA-Ligue 1,Metz,36,370,112,33,1,16
+FRA-Ligue 1,Monaco,27,445,153,62,9,17
+FRA-Ligue 1,Montpellier,26,433,151,48,3,38
+FRA-Ligue 1,Nantes,26,420,145,53,5,13
+FRA-Ligue 1,Nice,27,442,144,52,8,12
+FRA-Ligue 1,Paris S-G,36,555,202,88,7,29
+FRA-Ligue 1,Reims,35,389,137,42,4,5
+FRA-Ligue 1,Rennes,28,548,194,81,4,14
+FRA-Ligue 1,Saint-Étienne,39,434,141,41,5,23
+FRA-Ligue 1,Strasbourg,26,470,150,56,6,10
+FRA-Ligue 1,Troyes,35,379,120,35,6,9
+GER-Bundesliga,Arminia,26,361,109,26,2,10
+GER-Bundesliga,Augsburg,26,362,117,39,5,11
+GER-Bundesliga,Bayern Munich,30,668,255,92,5,12
+GER-Bundesliga,Bochum,28,409,136,37,4,17
+GER-Bundesliga,Dortmund,33,442,165,81,11,20
+GER-Bundesliga,Eint Frankfurt,27,446,136,43,1,14
+GER-Bundesliga,Freiburg,26,457,153,55,5,20
+GER-Bundesliga,Greuther Fürth,29,309,96,26,5,13
+GER-Bundesliga,Hertha BSC,36,365,119,35,3,15
+GER-Bundesliga,Hoffenheim,32,452,150,55,0,13
+GER-Bundesliga,Köln,26,467,149,52,1,9
+GER-Bundesliga,Leverkusen,29,453,184,76,2,11
+GER-Bundesliga,M'Gladbach,26,489,174,54,5,14
+GER-Bundesliga,Mainz 05,28,465,151,49,4,22
+GER-Bundesliga,RB Leipzig,29,429,169,72,8,18
+GER-Bundesliga,Stuttgart,34,449,153,40,1,10
+GER-Bundesliga,Union Berlin,28,408,149,50,5,7
+GER-Bundesliga,Wolfsburg,30,416,137,42,3,19
+ITA-Serie A,Atalanta,32,598,167,62,5,16
+ITA-Serie A,Bologna,36,434,143,43,4,14
+ITA-Serie A,Cagliari,33,420,117,34,3,17
+ITA-Serie A,Empoli,28,490,151,47,7,16
+ITA-Serie A,Fiorentina,28,501,172,59,9,25
+ITA-Serie A,Genoa,40,397,106,26,6,12
+ITA-Serie A,Hellas Verona,31,455,152,63,7,15
+ITA-Serie A,Inter,27,667,239,83,7,13
+ITA-Serie A,Juventus,32,517,166,56,5,18
+ITA-Serie A,Lazio,27,445,185,74,7,14
+ITA-Serie A,Milan,28,592,187,66,5,23
+ITA-Serie A,Napoli,27,565,186,74,10,25
+ITA-Serie A,Roma,29,592,184,58,7,21
+ITA-Serie A,Salernitana,42,426,130,32,4,20
+ITA-Serie A,Sampdoria,34,386,118,42,2,12
+ITA-Serie A,Sassuolo,29,569,204,60,7,14
+ITA-Serie A,Spezia,30,381,127,38,3,17
+ITA-Serie A,Torino,31,470,142,43,6,16
+ITA-Serie A,Udinese,29,505,181,58,3,19
+ITA-Serie A,Venezia,39,349,113,34,3,22

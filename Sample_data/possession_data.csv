@@ -1,6 +1,6 @@
 ,,,Touches,Dribbles,Dribbles,Touches,Receiving
-,,,Att 3rd,Succ,Att,Touches,Prog
-league,season,team,,,,,
+,,,,,,,
+league,season,team,Att 3rd.T,Succ.Drib,Att.Drib,Touches,Prog.T
 ENG-Premier League,2122,Arsenal,6399,319,590,23628,1058
 ENG-Premier League,2122,Aston Villa,4983,333,587,20474,916
 ENG-Premier League,2122,Brentford,4515,262,476,20340,869

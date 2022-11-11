@@ -1,0 +1,175 @@
+---
+title: "Project_625"
+author: "Soccer Regression"
+date: "2022-11-11"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Slide with Bullets
+
+- Exploratory data analysis
+- Model Building
+- Evaluating and interpretation
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+
+data1=read.csv(file.choose())
+head(data1)
+```
+
+## Slide with Eda
+
+
+
+```{r pressure}
+resp=data1[,3]
+mean(resp)
+var(resp)
+```
+```{r}
+library(alr4)
+
+scatterplotMatrix(data1[,c(-1,-2)])
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(ggthemes)
+
+
+```
+
+
+
+## Normal linear regression
+
+```{r}
+
+tail(data1)
+
+LRegre=lm(Gls~.-team, data1)
+summary(LRegre)
+plot(LRegre)
+```
+
+
+```{r}
+inverseResponsePlot(LRegre, lambda=c(-1,0,1), robust=FALSE)
+```
+```{r}
+
+
+```
+
+
+
+```{r}
+ggplot(data1,aes(Gls, fill=leage)) +
+  geom_boxplot(aes(y=Gls))+
+  theme_economist()  +
+  xlab("Gls") +
+  ylab("Fre") +
+  ggtitle("Gls Boxplot")
+
+```
+
+```{r}
+ggplot(data1,aes(PK, fill=leage)) +
+  geom_boxplot(aes(y=PK))+
+  theme_economist()  +
+  xlab("PK") +
+  ylab("Fre") +
+  ggtitle("PK Boxplot")
+```
+
+
+
+```{r}
+
+ggplot(data1,aes(FK, fill=leage)) +
+  geom_boxplot(aes(y=FK))+
+  theme_economist()  +
+  xlab("FK") +
+  ylab("FK") +
+  ggtitle("FK Boxplot")
+
+```
+
+```{r}
+ggplot(data1,aes(SoT, fill=leage)) +
+  geom_boxplot(aes(y=SoT))+
+  theme_economist()  +
+  xlab("Short on targets") +
+  ylab("Short on targets") +
+  ggtitle("SoT Boxplot")
+
+
+```
+```{r}
+scatterplot(Gls~PK,data1,id=2)
+scatterplot(Gls~FK,data1,id=2)
+scatterplot(Gls~no.sh,data1,id=2)
+scatterplot(Gls~SoT,data1,id=2)
+scatterplot(Gls~Att.3rd.T,data1,id=2)
+scatterplot(Gls~Att.Drib,data1,id=2)
+scatterplot(Gls~Succ.Drib,data1,id=2)
+scatterplot(Gls~No.Pl,data1,id=2)
+scatterplot(Gls~ShortAT_Pass,data1,id=2)
+scatterplot(Gls~MediumtAT_Pass,data1,id=2)
+scatterplot(Gls~LongAT_Pass,data1,id=2)
+scatterplot(Gls~Touches,data1,id=2)
+scatterplot(Gls~Prog.T,data1,id=2)
+scatterplot(Gls~GCA.Drib,data1,id=2)
+
+attach(data1)
+
+```
+```{r}
+new_model=step(LRegre, scope=~1, direction="backward")
+
+summary(new_model)
+```
+
+
+
+
+
+### Poisson regression
+```{r}
+hist(data1$Gls,breaks=10, xlab="Number of Goals", main="Distribution of Goals", prob=TRUE)
+lines(density(data1$Gls,na.rm = T), col="red", lwd=4)
+boxplot(data1$Gls, main="Boxplot of Goals")
+
+```
+
+```{r}
+Model2=glm(Gls~. -team, data1, family = poisson())
+summary(Model2)
+```
+
+## Overdispersion check
+```{r}
+library(qcc)
+qcc.overdispersion.test(data1$Gls, type = "poisson")
+```
+
+Overdispersion is present, so we try fitting quasipoisson
+
+
+```{r}
+Model3=glm(Gls~. -team, data1, family = quasipoisson())
+summary(Model3)
+
+
+```
+
+
