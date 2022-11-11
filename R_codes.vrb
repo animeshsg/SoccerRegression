@@ -1,17 +1,63 @@
-\frametitle{Slide with R Output}
-\protect\hypertarget{slide-with-r-output}{}
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{summary}\NormalTok{(cars)}
-\end{Highlighting}
-\end{Shaded}
+\frametitle{Overdispersion check}
+\protect\hypertarget{overdispersion-check}{}
+\begin{verbatim}
+## Warning: package 'qcc' was built under R version 4.2.2
+\end{verbatim}
 
 \begin{verbatim}
-##      speed           dist
-##  Min.   : 4.0   Min.   :  2.00
-##  1st Qu.:12.0   1st Qu.: 26.00
-##  Median :15.0   Median : 36.00
-##  Mean   :15.4   Mean   : 42.98
-##  3rd Qu.:19.0   3rd Qu.: 56.00
-##  Max.   :25.0   Max.   :120.00
+## Package 'qcc' version 2.7
+\end{verbatim}
+
+\begin{verbatim}
+## Type 'citation("qcc")' for citing this R package in publications.
+\end{verbatim}
+
+\begin{verbatim}
+##
+## Overdispersion test Obs.Var/Theor.Var Statistic p-value
+##        poisson data          5.280916  512.2488       0
+\end{verbatim}
+
+Overdispersion is present, so we try fitting quasipoisson
+
+\begin{verbatim}
+##
+## Call:
+## glm(formula = Gls ~ . - team, family = quasipoisson(), data = data1)
+##
+## Deviance Residuals:
+##      Min        1Q    Median        3Q       Max
+## -2.01244  -0.55563   0.00422   0.40505   1.76659
+##
+## Coefficients:
+##                  Estimate Std. Error t value Pr(>|t|)
+## (Intercept)     3.296e+00  4.865e-01   6.774 2.01e-09 ***
+## leageEpl       -3.036e-02  5.959e-02  -0.509  0.61187
+## leageLaliga    -5.656e-02  6.423e-02  -0.880  0.38126
+## leageLigue1    -9.408e-03  5.263e-02  -0.179  0.85858
+## leageSerieA     2.046e-03  5.298e-02   0.039  0.96930
+## No.Pl          -3.579e-03  4.110e-03  -0.871  0.38660
+## no.sh          -1.366e-03  5.859e-04  -2.332  0.02226 *
+## SoT             7.118e-03  1.349e-03   5.277 1.12e-06 ***
+## PK              1.150e-02  6.728e-03   1.709  0.09144 .
+## FK             -1.911e-03  2.585e-03  -0.739  0.46200
+## Att.3rd.T       2.836e-05  3.808e-05   0.745  0.45867
+## Succ.Drib       5.631e-04  7.961e-04   0.707  0.48148
+## Att.Drib       -7.153e-04  4.916e-04  -1.455  0.14961
+## Touches        -4.415e-05  7.602e-05  -0.581  0.56302
+## Prog.T          2.681e-04  2.089e-04   1.283  0.20311
+## GCA.Drib        1.620e-02  5.494e-03   2.949  0.00419 **
+## ShortAT_Pass    5.289e-05  8.415e-05   0.629  0.53148
+## MediumtAT_Pass  5.678e-05  6.872e-05   0.826  0.41109
+## LongAT_Pass     6.281e-05  1.083e-04   0.580  0.56356
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+##
+## (Dispersion parameter for quasipoisson family taken to be 0.7965294)
+##
+##     Null deviance: 492.772  on 97  degrees of freedom
+## Residual deviance:  63.397  on 79  degrees of freedom
+## AIC: NA
+##
+## Number of Fisher Scoring iterations: 4
 \end{verbatim}

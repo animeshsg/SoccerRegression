@@ -2,7 +2,8 @@
 title: "Project_625"
 author: "Soccer Regression"
 date: "2022-11-11"
-output: beamer_presentation
+output: 
+      pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -20,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r cars, echo = TRUE}
 
-data1=read.csv(file.choose())
+data1=read.csv("C:/Users/USER/Desktop/SoccerRegression/Sample_data/Project_Data.csv")
 head(data1)
 ```
 
