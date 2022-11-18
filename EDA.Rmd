@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library("car")
 library("tidyverse")
 library("GGally")
+library("summarytools")
 
 ```
 
@@ -35,8 +36,11 @@ project = read.csv(file.choose(),header=T)
 ## Summary statistics
 
 ```{r overall summary stats}
-
-summary(project[,3:17])
+descr(project,
+      headings = FALSE, # remove headings
+      stats = "common" # most common descriptive statistics
+)
+view(dfSummary(project[,3:17]))
 barplot(table(project$leage),col="pink")
 var(project[,c(3)])
 
