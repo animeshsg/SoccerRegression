@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(alr4)
 library(tinytex)
 library(summarytools)
-library(tidyverse)
+#library(tidyverse)
 library(ggplot2)
 library(splines)
 library(aod)
@@ -27,7 +27,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
-data1<- read_csv("Stat_625.csv")
+data1<- read.csv("C:/Users/USER/Desktop/SoccerRegression/Sample_data/Project_Data.csv")
 
 
   
@@ -170,7 +170,7 @@ summary(Model3)
 
 ```{r}
 head(data1)
-newdata=data1[,c(1,3,4,6,7,8,9,11,15,17)]
+newdata=data1[,c(1,3,4,6,7,8,9,11,15,17,18)]
 head(newdata)
 ```
 
@@ -214,9 +214,11 @@ residuals(final_m)
 
 ```{r}
 attach(data1)
-Model5=glm(Gls~ leage + No.Pl+ SoT+PK+FK+`Att 3rd.T`+Succ.Drib+ ShortAT_Pass+ Succ.Drib:PK+Succ.Drib:FK+`Att 3rd.T`:FK, data1, family =quasipoisson())
+Model5=glm(Gls~ leage + No.Pl+ SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Succ.Drib:PK+Succ.Drib:FK+Att.3rd.T:FK, data1, family =quasipoisson())
 
 summary(Model5)
+
+Anova(Model5)
 ```
 ## Succ.Drib with FK,PK as epl baseline
 
@@ -227,14 +229,15 @@ data1$leage <- as.factor(data1$leage)
 data1 <- within(data1,leage<- relevel(leage,ref=2))
 
 
-Model55=glm(Gls~ leage + No.Pl+ SoT+PK+FK+`Att 3rd.T`+Succ.Drib+ ShortAT_Pass+ Succ.Drib:PK+Succ.Drib:FK, data1, family =quasipoisson())
+Model55=glm(Gls~ leage + No.Pl+ SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Succ.Drib:PK+Succ.Drib:FK, data1, family =quasipoisson())
 
 summary(Model55)
+Anova(Model55)
 ```
 ## att 3rd with FK,PK
 
 ```{r}
-Model6=glm(Gls~ leage + No.Pl+ SoT+PK+FK+`Att 3rd.T`+Succ.Drib+ ShortAT_Pass+ `Att 3rd.T`:PK+`Att 3rd.T`:FK, data1, family =quasipoisson())
+Model6=glm(Gls~ leage + No.Pl+ SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Att.3rd.T:PK+Att.3rd.T:FK, data1, family =quasipoisson())
 
 summary(Model6)
 
@@ -242,7 +245,7 @@ summary(Model6)
 
 ```
 ```{r}
-Model7=glm(Gls~ leage + No.Pl+ SoT+PK+FK+`Att 3rd.T`+Succ.Drib+ ShortAT_Pass+ ShortAT_Pass:PK+ShortAT_Pass:FK, data1, family =quasipoisson())
+Model7=glm(Gls~ leage + No.Pl+ SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ ShortAT_Pass:PK+ShortAT_Pass:FK, data1, family =quasipoisson())
 
 summary(Model7)
 

@@ -1,99 +1,99 @@
 ,league,season,team,NumAtt
-0,ENG-Premier League,2122,Arsenal,5.0
-10,ENG-Premier League,2122,Aston Villa,3.0
-23,ENG-Premier League,2122,Brentford,2.0
-28,ENG-Premier League,2122,Brighton,2.0
-35,ENG-Premier League,2122,Burnley,1.0
-42,ENG-Premier League,2122,Chelsea,1.0
-49,ENG-Premier League,2122,Crystal Palace,1.0
-58,ENG-Premier League,2122,Everton,1.0
-69,ENG-Premier League,2122,Leeds United,1.0
-79,ENG-Premier League,2122,Leicester City,3.0
-88,ENG-Premier League,2122,Liverpool,3.0
-97,ENG-Premier League,2122,Manchester City,5.0
-108,ENG-Premier League,2122,Manchester Utd,2.0
-120,ENG-Premier League,2122,Newcastle Utd,1.0
-128,ENG-Premier League,2122,Norwich City,1.0
-138,ENG-Premier League,2122,Southampton,1.0
-147,ENG-Premier League,2122,Tottenham,3.0
-154,ENG-Premier League,2122,Watford,1.0
-163,ENG-Premier League,2122,West Ham,3.0
-171,ENG-Premier League,2122,Wolves,1.0
-178,ESP-La Liga,2122,Alavés,1.0
-189,ESP-La Liga,2122,Athletic Club,2.0
-195,ESP-La Liga,2122,Atlético Madrid,5.0
-202,ESP-La Liga,2122,Barcelona,3.0
-219,ESP-La Liga,2122,Betis,4.0
-232,ESP-La Liga,2122,Celta Vigo,2.0
-238,ESP-La Liga,2122,Cádiz,
-249,ESP-La Liga,2122,Elche,2.0
-258,ESP-La Liga,2122,Espanyol,1.0
-268,ESP-La Liga,2122,Getafe,1.0
-275,ESP-La Liga,2122,Granada,2.0
-287,ESP-La Liga,2122,Levante,3.0
-295,ESP-La Liga,2122,Mallorca,
-308,ESP-La Liga,2122,Osasuna,1.0
-319,ESP-La Liga,2122,Rayo Vallecano,2.0
-331,ESP-La Liga,2122,Real Madrid,3.0
-341,ESP-La Liga,2122,Real Sociedad,1.0
-352,ESP-La Liga,2122,Sevilla,2.0
-366,ESP-La Liga,2122,Valencia,1.0
-376,ESP-La Liga,2122,Villarreal,5.0
-388,FRA-Ligue 1,2122,Angers,1.0
-400,FRA-Ligue 1,2122,Bordeaux,2.0
-413,FRA-Ligue 1,2122,Brest,2.0
-422,FRA-Ligue 1,2122,Clermont Foot,2.0
-432,FRA-Ligue 1,2122,Lens,2.0
-441,FRA-Ligue 1,2122,Lille,1.0
-453,FRA-Ligue 1,2122,Lorient,1.0
-464,FRA-Ligue 1,2122,Lyon,4.0
-476,FRA-Ligue 1,2122,Marseille,3.0
-488,FRA-Ligue 1,2122,Metz,
-500,FRA-Ligue 1,2122,Monaco,3.0
-510,FRA-Ligue 1,2122,Montpellier,2.0
-521,FRA-Ligue 1,2122,Nantes,3.0
-530,FRA-Ligue 1,2122,Nice,2.0
-535,FRA-Ligue 1,2122,Paris S-G,4.0
-548,FRA-Ligue 1,2122,Reims,1.0
-565,FRA-Ligue 1,2122,Rennes,4.0
-576,FRA-Ligue 1,2122,Saint-Étienne,2.0
-591,FRA-Ligue 1,2122,Strasbourg,3.0
-598,FRA-Ligue 1,2122,Troyes,
-612,GER-Bundesliga,2122,Arminia,
-622,GER-Bundesliga,2122,Augsburg,
-632,GER-Bundesliga,2122,Bayern Munich,4.0
-642,GER-Bundesliga,2122,Bochum,1.0
-654,GER-Bundesliga,2122,Dortmund,3.0
-664,GER-Bundesliga,2122,Eint Frankfurt,1.0
-670,GER-Bundesliga,2122,Freiburg,1.0
-678,GER-Bundesliga,2122,Greuther Fürth,1.0
-686,GER-Bundesliga,2122,Hertha BSC,
-701,GER-Bundesliga,2122,Hoffenheim,2.0
-713,GER-Bundesliga,2122,Köln,2.0
-724,GER-Bundesliga,2122,Leverkusen,3.0
-737,GER-Bundesliga,2122,M'Gladbach,3.0
-744,GER-Bundesliga,2122,Mainz 05,2.0
-751,GER-Bundesliga,2122,RB Leipzig,3.0
-760,GER-Bundesliga,2122,Stuttgart,
-774,GER-Bundesliga,2122,Union Berlin,2.0
-782,GER-Bundesliga,2122,Wolfsburg,
-795,ITA-Serie A,2122,Atalanta,4.0
-808,ITA-Serie A,2122,Bologna,2.0
-817,ITA-Serie A,2122,Cagliari,1.0
-826,ITA-Serie A,2122,Empoli,2.0
-834,ITA-Serie A,2122,Fiorentina,2.0
-844,ITA-Serie A,2122,Genoa,1.0
-860,ITA-Serie A,2122,Hellas Verona,3.0
-866,ITA-Serie A,2122,Inter,2.0
-873,ITA-Serie A,2122,Juventus,2.0
-885,ITA-Serie A,2122,Lazio,3.0
-893,ITA-Serie A,2122,Milan,3.0
-902,ITA-Serie A,2122,Napoli,4.0
-910,ITA-Serie A,2122,Roma,2.0
-919,ITA-Serie A,2122,Salernitana,1.0
-931,ITA-Serie A,2122,Sampdoria,2.0
-941,ITA-Serie A,2122,Sassuolo,3.0
-952,ITA-Serie A,2122,Spezia,1.0
-963,ITA-Serie A,2122,Torino,
-972,ITA-Serie A,2122,Udinese,2.0
-983,ITA-Serie A,2122,Venezia,2.0
+0,ENG-Premier League,2122,Arsenal,5
+10,ENG-Premier League,2122,Aston Villa,3
+23,ENG-Premier League,2122,Brentford,2
+28,ENG-Premier League,2122,Brighton,2
+35,ENG-Premier League,2122,Burnley,1
+42,ENG-Premier League,2122,Chelsea,1
+49,ENG-Premier League,2122,Crystal Palace,1
+58,ENG-Premier League,2122,Everton,1
+69,ENG-Premier League,2122,Leeds United,1
+79,ENG-Premier League,2122,Leicester City,3
+88,ENG-Premier League,2122,Liverpool,3
+97,ENG-Premier League,2122,Manchester City,5
+108,ENG-Premier League,2122,Manchester Utd,2
+120,ENG-Premier League,2122,Newcastle Utd,1
+128,ENG-Premier League,2122,Norwich City,1
+138,ENG-Premier League,2122,Southampton,1
+147,ENG-Premier League,2122,Tottenham,3
+154,ENG-Premier League,2122,Watford,1
+163,ENG-Premier League,2122,West Ham,3
+171,ENG-Premier League,2122,Wolves,1
+178,ESP-La Liga,2122,Alavés,1
+189,ESP-La Liga,2122,Athletic Club,2
+195,ESP-La Liga,2122,Atlético Madrid,5
+202,ESP-La Liga,2122,Barcelona,3
+219,ESP-La Liga,2122,Betis,4
+232,ESP-La Liga,2122,Celta Vigo,2
+238,ESP-La Liga,2122,Cádiz,0
+249,ESP-La Liga,2122,Elche,2
+258,ESP-La Liga,2122,Espanyol,1
+268,ESP-La Liga,2122,Getafe,1
+275,ESP-La Liga,2122,Granada,2
+287,ESP-La Liga,2122,Levante,3
+295,ESP-La Liga,2122,Mallorca,0
+308,ESP-La Liga,2122,Osasuna,1
+319,ESP-La Liga,2122,Rayo Vallecano,2
+331,ESP-La Liga,2122,Real Madrid,3
+341,ESP-La Liga,2122,Real Sociedad,1
+352,ESP-La Liga,2122,Sevilla,2
+366,ESP-La Liga,2122,Valencia,1
+376,ESP-La Liga,2122,Villarreal,5
+388,FRA-Ligue 1,2122,Angers,1
+400,FRA-Ligue 1,2122,Bordeaux,2
+413,FRA-Ligue 1,2122,Brest,2
+422,FRA-Ligue 1,2122,Clermont Foot,2
+432,FRA-Ligue 1,2122,Lens,2
+441,FRA-Ligue 1,2122,Lille,1
+453,FRA-Ligue 1,2122,Lorient,1
+464,FRA-Ligue 1,2122,Lyon,4
+476,FRA-Ligue 1,2122,Marseille,3
+488,FRA-Ligue 1,2122,Metz,0
+500,FRA-Ligue 1,2122,Monaco,3
+510,FRA-Ligue 1,2122,Montpellier,2
+521,FRA-Ligue 1,2122,Nantes,3
+530,FRA-Ligue 1,2122,Nice,2
+535,FRA-Ligue 1,2122,Paris S-G,4
+548,FRA-Ligue 1,2122,Reims,1
+565,FRA-Ligue 1,2122,Rennes,4
+576,FRA-Ligue 1,2122,Saint-Étienne,2
+591,FRA-Ligue 1,2122,Strasbourg,3
+598,FRA-Ligue 1,2122,Troyes,0
+612,GER-Bundesliga,2122,Arminia,0
+622,GER-Bundesliga,2122,Augsburg,0
+632,GER-Bundesliga,2122,Bayern Munich,4
+642,GER-Bundesliga,2122,Bochum,1
+654,GER-Bundesliga,2122,Dortmund,3
+664,GER-Bundesliga,2122,Eint Frankfurt,1
+670,GER-Bundesliga,2122,Freiburg,1
+678,GER-Bundesliga,2122,Greuther Fürth,1
+686,GER-Bundesliga,2122,Hertha BSC,0
+701,GER-Bundesliga,2122,Hoffenheim,2
+713,GER-Bundesliga,2122,Köln,2
+724,GER-Bundesliga,2122,Leverkusen,3
+737,GER-Bundesliga,2122,M'Gladbach,3
+744,GER-Bundesliga,2122,Mainz 05,2
+751,GER-Bundesliga,2122,RB Leipzig,3
+760,GER-Bundesliga,2122,Stuttgart,0
+774,GER-Bundesliga,2122,Union Berlin,2
+782,GER-Bundesliga,2122,Wolfsburg,0
+795,ITA-Serie A,2122,Atalanta,4
+808,ITA-Serie A,2122,Bologna,2
+817,ITA-Serie A,2122,Cagliari,1
+826,ITA-Serie A,2122,Empoli,2
+834,ITA-Serie A,2122,Fiorentina,2
+844,ITA-Serie A,2122,Genoa,1
+860,ITA-Serie A,2122,Hellas Verona,3
+866,ITA-Serie A,2122,Inter,2
+873,ITA-Serie A,2122,Juventus,2
+885,ITA-Serie A,2122,Lazio,3
+893,ITA-Serie A,2122,Milan,3
+902,ITA-Serie A,2122,Napoli,4
+910,ITA-Serie A,2122,Roma,2
+919,ITA-Serie A,2122,Salernitana,1
+931,ITA-Serie A,2122,Sampdoria,2
+941,ITA-Serie A,2122,Sassuolo,3
+952,ITA-Serie A,2122,Spezia,1
+963,ITA-Serie A,2122,Torino,0
+972,ITA-Serie A,2122,Udinese,2
+983,ITA-Serie A,2122,Venezia,2
