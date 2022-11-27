@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.5)  27 NOV 2022 02:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.5)  27 NOV 2022 05:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,6 +1089,24 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 
 ] [6
 
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+]
+<Gls.png, id=283, 587.94656pt x 335.75438pt>
+File: Gls.png Graphic file (type png)
+<use Gls.png>
+Package pdftex.def Info: Gls.png  used on input line 122.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [11
+
+ <./Gls.png>] [12
+
 ]
 \tf@nav=\write6
 \openout6 = `Project_625.nav'.
@@ -1104,31 +1122,36 @@ Package rerunfilecheck Info: File `Project_625.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22934 strings out of 477843
- 448315 string characters out of 2824072
- 716617 words of memory out of 3000000
- 41343 multiletter control sequences out of 15000+600000
+ 22976 strings out of 477843
+ 448865 string characters out of 2824072
+ 717619 words of memory out of 3000000
+ 41372 multiletter control sequences out of 15000+600000
  510368 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,122p,700b,552s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:
-/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/
-Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users
-/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/
-USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/U
-SER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/USE
-R/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/USER
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/USER/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/USER/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/USER/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/USER/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Users/USER/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/USER/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/USER/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Project_625.pdf (6 pages, 194527 bytes).
+{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc
+}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{
+C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Us
+ers/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/U
+SER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/US
+ER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/USE
+R/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/USER/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/USER/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/USER/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/USER/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/USER/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/USER/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/USER/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Users/USER/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/USER/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/USER/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/USER/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/USER/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Project_625.pdf (12 pages, 266560 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

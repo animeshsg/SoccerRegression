@@ -65,11 +65,64 @@
 
 \begin{frame}
 	\frametitle{Poisson Regression}
-	This is type a regression used when the response variable is a COUNT variable. It models the expected value of occurrence of an event as a function of some predictor variables.\\
+	This is type a regression used when the response variable is a COUNT variable. It models the logarithm of the expected value of occurrence of an event as a linear function of some predictor variables.\\
 	The mathematical equation for the model is given below:
 	\[log(E(no.Goals|X))= \beta_0+\beta^{'}X\]
 	Alternatively, we can write it in an exponential form as:
-	\[E(No.Goals|X)= e^{(\beta_0+\beta^{'}X)}\]	
+	\[E(No.Goals|X)= e^{(\beta_0+\beta^{'}X)}\]
+	The method used here to estimate the paramters is the Maximum Liklihood estimator.	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Assumptions of poisson Regression}
+	\begin{itemize}
+		\item The number of goals must be scored in a fixed time.
+		\item \[E(no.Gls|X) =Var(no.Gls|X)\]
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{Estimation of parameter}
+	The estimation method used here is the maximum likelihood estimation method.
+	The procedure is briefly described below:
+	Given the model:
+	\[\lambda(x)= E(Y|X)= e^{\beta^{'}X}\]
+	Here Y, the response follow a Poisson distribution, therefore we have
+	\[P(y|x,\beta^{'})= \frac{\lambda(x)^y e^{-\lambda(x)}}{y!}\]   \[= \frac{e^{y \beta^{'}X} e^{-e^{\beta^{'}X}}}{y!}\]
+	
+	Now suppose we have  data set $(X,y)$ with n rows, then given an set of parameters $\beta$ the likelihood is given by
+	\[L(\beta|X,Y)= \prod_{i=1}^{n} \frac{e^{y_i \beta^{'}X_i} e^{-e^{\beta^{'}X_i}}}{y_i!}\]
+	The goal is to find $\beta$ which maximize this likelihood.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Quasi-Poisson}
+	This study used this variant of Poisson regression because, the data is under-dispersion( the conditonal variance is smaller than expected).
+	This type of model add a parameter called the dispersion which help solve the problem of under-dispersion. This reason for this model is to produce credible inference. 
+	The dispersion parameter is given by
+	\[\hat{\phi}=\frac{1}{n-K}\sum_{i=1}^{n}\frac{(y_i-\hat{y_i})^2}{\hat{y_i}}\]
+	where K is the number of parameters.\\
+	such that
+	\[Var(Y|X)=\hat{\phi}E(Y|X) \]
+	if $\hat{\phi}=1$ we have Possion regression\\
+	if $\hat{\phi}>1$ we have over-dispersion\\
+	if $\hat{\phi}<1$ we have under-dispersion
+	
+\end{frame}
+\begin{frame}
+	\frametitle{Pearson Residuals}
+	This is a useful measure for diagnosing the appropriateness of a Poisson regression. This type of residual is a weighted residual and when ploted with the fitted points tells us if the Poisson regression is ok and there is no issue with dispersion. This measure is computed with the formula below.
+	\[Pearson Residual=\frac{y_i-\hat{y_i}}{\sqrt{\hat{y_i}}}\]  
+\end{frame}
+
+\begin{frame}{Descriptive}
+	\frametitle{Results}
+	\includegraphics[scale=0.5]{Gls}
+	\figurename 1: The plot show the goals distribution across the 5 Leagues
+\end{frame}
+
+\begin{frame}
+	\frametitle{Results}
 	
 \end{frame}
 
