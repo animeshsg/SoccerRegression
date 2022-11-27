@@ -1,0 +1,76 @@
+\documentclass[11pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usetheme{default}
+\begin{document}
+	\author{Nayani Jani\\
+		Christopher Odoom\\
+		Denis Folitse\\
+		Animesh Sengupta\\ }
+	\title{\bf{A Quasi-Poisson Approach\\ Goals in Football, What contributes to them? }}
+	%\subtitle{}
+
+	\institute{\textbf{   University of Massachusetts, Amherst }}
+	%\date{}
+	%\subject{}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+	
+\begin{frame}	
+		\frametitle{Background of study}
+		Football has become a part of the world and is one of the biggest source of entertainment in the world. It has created job and opportunities to people all over the world. It's important in this modern time cannot be overlooked.There are five major football leagues in the world; English premier league, German BundesLiga, Spanish Laliga, Italian Seria A and France League one. Football supporters of English primier league all over the world always claim that, their league is the difficult one among all the five major leagues, is this claim true?. Football fans all over the world have insufficient answer to this question. This study tries to provide answer to this question.
+		
+	\end{frame}
+
+	
+	\begin{frame}
+		\frametitle{Problem statement}
+	Argument: If a league has a lot of goals scored in a season it is deemed not competitive because of the quality of opponents (vice versa as well).
+	Goal: Does the factor league determine the amount of goals combined with other variables? If not, what predictors are associated with the response Goals?	
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Objectives}
+		This study is directed by the specific objectives stated below;\\
+		\begin{enumerate}
+			
+			
+			\item Determine if there is a significant difference in goals across the 5 major leagues.
+			
+			\item Determine if there are other predictors that are associated with the goals other than the different leagues.
+			
+		\end{enumerate}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Methodology}
+		This study used  a data which was collected from \url{ https://fbref.com}, 
+		We used the
+		2021-2022 season statistics for EPL, La Liga, Bundesliga, Ligue 1 and Serie A in the analysis. The data comprise of 98 observations and 18 variables.
+		Models we considered includes
+		Poisson regression,
+		 Quasi - Poisson Regression.
+		 
+		Diagnostic Tests: Test for Overdispersion, Residual Vs. Fitted Plot, Normal QQ-Plot
+	\end{frame}
+
+\begin{frame}
+	\frametitle{Poisson Regression}
+	This is type a regression used when the response variable is a COUNT variable. It models the expected value of occurrence of an event as a function of some predictor variables.\\
+	The mathematical equation for the model is given below:
+	\[log(E(no.Goals|X))= \beta_0+\beta^{'}X\]
+	Alternatively, we can write it in an exponential form as:
+	\[E(No.Goals|X)= e^{(\beta_0+\beta^{'}X)}\]	
+	
+\end{frame}
+
+\end{document}

@@ -220,7 +220,13 @@ summary(Model5)
 
 Anova(Model5)
 ```
+
+
+
+##### Models for presentation.
 ## Succ.Drib with FK,PK as epl baseline
+
+
 
 ```{r}
 
@@ -229,15 +235,77 @@ data1$leage <- as.factor(data1$leage)
 data1 <- within(data1,leage<- relevel(leage,ref=2))
 
 
-Model55=glm(Gls~ leage + No.Pl+ SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Succ.Drib:PK+Succ.Drib:FK, data1, family =quasipoisson())
+ Model55=glm(Gls~ leage +SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Succ.Drib:PK+Succ.Drib:FK, data1, family =quasipoisson())
+# 
 
+Model55=glm(Gls~ leage +SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt, data1, family =quasipoisson())
 summary(Model55)
 Anova(Model55)
+ 
 ```
+
+
+```{r}
+###Model with interactions
+Modep=glm(Gls~ leage +SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Succ.Drib:PK+Succ.Drib:FK, data1, family =poisson())
+
+summary(Modep)
+plot(Modep)
+```
+
+
+
+#### Poisson regression
+```{r}
+###Model without interactions
+Modep=glm(Gls~ leage +SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt, data1, family =poisson())
+
+summary(Modep)
+plot(Modep)
+```
+
+```{r}
+### Pearson residuals
+
+resid <- resid(Modep, type = "pearson")
+fitted <- fitted(Modep)
+df <- data.frame(resid, fitted)
+
+ggplot(df, aes(fitted, resid)) + geom_point() + ylab("Pearsons residuals") + xlab("Fitted values")
+```
+
+
+```{r}
+### Dispersion Parameter
+phi=(1/(98-12))*sum(resid^2)
+phi
+```
+
+
+
+
+### Quasi Poisson regression
+```{r}
+###Model without interactions
+Modeqp=glm(Gls~ leage +SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt, data1, family =quasipoisson())
+
+summary(Modeqp)
+plot(Modeqp)
+```
+
+
+
+```{r}
+length(data1[1,])
+
+```
+
+
+
 ## att 3rd with FK,PK
 
 ```{r}
-Model6=glm(Gls~ leage + No.Pl+ SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Att.3rd.T:PK+Att.3rd.T:FK, data1, family =quasipoisson())
+Model6=glm(Gls~ leage + SoT+PK+FK+Att.3rd.T+Succ.Drib+ ShortAT_Pass+NumAtt+ Att.3rd.T:PK+Att.3rd.T:FK, data1, family =quasipoisson())
 
 summary(Model6)
 
