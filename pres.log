@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.5)  30 NOV 2022 18:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.5)  30 NOV 2022 19:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Project_625.tex
-(Project_625.tex
+**./pres.tex
+(pres.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-23>
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -852,8 +852,15 @@ ex.def
 File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count336
 \l__pdf_internal_box=\box76
-) (Project_625.aux)
-\openout1 = `Project_625.aux'.
+) (pres.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `pres.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -942,9 +949,9 @@ g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 11.
- (Project_625.out) (Project_625.out)
+ (pres.out) (pres.out)
 \@outlinefile=\write5
-\openout5 = `Project_625.out'.
+\openout5 = `pres.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 11.
@@ -1016,7 +1023,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-th
 eorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (Project_625.nav)
+) (pres.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 15.
@@ -1098,129 +1105,125 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 ] [10
 
 ]
-<Gls.png, id=284, 587.94656pt x 335.75438pt>
-File: Gls.png Graphic file (type png)
-<use Gls.png>
-Package pdftex.def Info: Gls.png  used on input line 122.
+<gls1.png, id=284, 587.94656pt x 335.75438pt>
+File: gls1.png Graphic file (type png)
+<use gls1.png>
+Package pdftex.def Info: gls1.png  used on input line 121.
 (pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
  [11
 
- <./Gls.png>]
-<gls1.png, id=311, 587.94656pt x 335.75438pt>
-File: gls1.png Graphic file (type png)
-<use gls1.png>
-Package pdftex.def Info: gls1.png  used on input line 128.
+ <./gls1.png>]
+<Gls.png, id=311, 587.94656pt x 335.75438pt>
+File: Gls.png Graphic file (type png)
+<use Gls.png>
+Package pdftex.def Info: Gls.png  used on input line 128.
 (pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
  [12
 
- <./gls1.png>]
-Overfull \hbox (5.9371pt too wide) in paragraph at lines 156--156
-[][]  
+ <./Gls.png>]
+
+Package hyperref Warning: Ignoring empty anchor on input line 162.
+
+
+Overfull \vbox (3.28622pt too high) detected at line 162
  []
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.156 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: \begin{document} ended by \end{beamer@framepauses}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.156 \end{frame}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\endbeamer@frameslide ...amer@framepauses}\egroup 
-                                                  \ifx \beamer@frametitle \@...
-l.156 \end{frame}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Undefined control sequence.
-\endbeamer@frameslide ...box \else \beamer@zoomer 
-                                                  \fi \beamer@undolabels \be...
-l.156 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{beamer@frameslide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.156 \end{frame}
-                 
-Things are pretty mixed up, but I think the worst is over.
 
 [13
 
 ]
+<gls2.png, id=364, 587.94656pt x 335.75438pt>
+File: gls2.png Graphic file (type png)
+<use gls2.png>
+Package pdftex.def Info: gls2.png  used on input line 169.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [14
 
-Package hyperref Warning: Ignoring empty anchor on input line 184.
+ <./gls2.png>]
+<gls3.png, id=391, 587.94656pt x 335.75438pt>
+File: gls3.png Graphic file (type png)
+<use gls3.png>
+Package pdftex.def Info: gls3.png  used on input line 175.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [15
 
-[14
+ <./gls3.png>]
+
+Package hyperref Warning: Ignoring empty anchor on input line 205.
+
+
+Overfull \vbox (2.36401pt too high) detected at line 205
+ []
+
+[16
+
+]
+<gls4.png, id=443, 587.94656pt x 335.75438pt>
+File: gls4.png Graphic file (type png)
+<use gls4.png>
+Package pdftex.def Info: gls4.png  used on input line 212.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [17
+
+ <./gls4.png>]
+<gls5.png, id=470, 587.94656pt x 335.75438pt>
+File: gls5.png Graphic file (type png)
+<use gls5.png>
+Package pdftex.def Info: gls5.png  used on input line 217.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [18
+
+ <./gls5.png>]
+
+Package hyperref Warning: Ignoring empty anchor on input line 246.
+
+
+Overfull \vbox (2.36401pt too high) detected at line 246
+ []
+
+[19
+
+]
+<gls6.png, id=523, 587.94656pt x 335.75438pt>
+File: gls6.png Graphic file (type png)
+<use gls6.png>
+Package pdftex.def Info: gls6.png  used on input line 252.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [20
+
+ <./gls6.png>]
+File: gls5.png Graphic file (type png)
+<use gls5.png>
+Package pdftex.def Info: gls5.png  used on input line 259.
+(pdftex.def)             Requested size: 293.97256pt x 167.87677pt.
+ [21
+
+] [22
 
 ]
 \tf@nav=\write6
-\openout6 = `Project_625.nav'.
+\openout6 = `pres.nav'.
 
 \tf@toc=\write7
-\openout7 = `Project_625.toc'.
+\openout7 = `pres.toc'.
 
 \tf@snm=\write8
-\openout8 = `Project_625.snm'.
+\openout8 = `pres.snm'.
 
- (Project_625.aux)
+ (pres.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `Project_625.out' has not changed.
+Package rerunfilecheck Info: File `pres.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23016 strings out of 477843
- 449558 string characters out of 2824072
- 726644 words of memory out of 3000000
- 41408 multiletter control sequences out of 15000+600000
+ 23099 strings out of 477843
+ 450338 string characters out of 2824072
+ 725648 words of memory out of 3000000
+ 41475 multiletter control sequences out of 15000+600000
  513138 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,122p,700b,552s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,14n,122p,693b,552s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc
 }{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{
@@ -1241,9 +1244,9 @@ a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/USER/AppData
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/USER/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/USER/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Project_625.pdf (14 pages, 284782 bytes).
+Output written on pres.pdf (22 pages, 358963 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 681 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

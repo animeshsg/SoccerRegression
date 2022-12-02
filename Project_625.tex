@@ -97,8 +97,8 @@
 
 \begin{frame}
 	\frametitle{Quasi-Poisson}
-	This study used this variant of Poisson regression because, the data is under-dispersion( the conditonal variance is smaller than expected).
-	This type of model add a parameter called the dispersion which help solve the problem of under-dispersion. This reason for this model is to produce credible inference. 
+	This study used this variant of Poisson regression because, the data is under-dispersed( the conditonal variance is smaller than expected).
+	The type of model add a parameter called the dispersion which help solve the problem of under-dispersion. This reason for this model is to produce credible inference. 
 	The dispersion parameter is given by
 	\[\hat{\phi}=\frac{1}{n-K}\sum_{i=1}^{n}\frac{(y_i-\hat{y_i})^2}{\hat{y_i}}\]
 	where K is the number of parameters.\\
@@ -121,9 +121,76 @@
 	\figurename 1: The plot show the goals distribution across the 5 Leagues
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Descriptive}
 	\frametitle{Results}
-	
+	\includegraphics[scale=0.5]{gls1}
+	\figurename 1: The plot show the goals distribution across the 5 Leagues
 \end{frame}
 
+\begin{frame}
+	\frametitle{Results}
+	\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+		\\[-1.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& Estimate & Std. Error & t value & Pr(\textgreater \textbar t\textbar ) \\ 
+		\hline \\[-1.8ex] 
+		(Intercept) & $2.870$ & $0.217$ & $13.222$ & $0$ \\ 
+		leageBundesliga & $0.096$ & $0.045$ & $2.121$ & $0.037$ \\ 
+		leageLaliga & $$-$0.003$ & $0.041$ & $$-$0.077$ & $0.939$ \\ 
+		leageLigue1 & $0.032$ & $0.041$ & $0.776$ & $0.440$ \\ 
+		leageSerieA & $0.009$ & $0.042$ & $0.217$ & $0.829$ \\ 
+		No.Pl & $$-$0.001$ & $0.004$ & $$-$0.143$ & $0.887$ \\ 
+		SoT & $0.005$ & $0.001$ & $7.661$ & $0$ \\ 
+		PK & $0.044$ & $0.028$ & $1.559$ & $0.123$ \\ 
+		FK & $$-$0.012$ & $0.009$ & $$-$1.373$ & $0.174$ \\ 
+		Att.3rd.T & $$-$0.00001$ & $0.00002$ & $$-$0.360$ & $0.719$ \\ 
+		Succ.Drib & $$-$0.001$ & $0.0003$ & $$-$1.923$ & $0.058$ \\ 
+		ShortAT\_Pass & $0.00003$ & $0.00003$ & $1.049$ & $0.297$ \\ 
+		NumAtt & $0.072$ & $0.013$ & $5.560$ & $0.00000$ \\ 
+		PK:ShortAT\_Pass & $$-$0.00000$ & $0.00000$ & $$-$1.039$ & $0.302$ \\ 
+		FK:ShortAT\_Pass & $0.00000$ & $0.00000$ & $1.165$ & $0.247$ \\ 
+		\hline \\[-1.8ex] 
+	\end{tabular} 
+\end{table} 
+
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Results}
+\begin{table}[!htbp] \centering 
+	\caption{Poisson Regression Output} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+		\\[-1.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& Estimate & Std. Error & z value & Pr(\textgreater \textbar z\textbar ) \\ 
+		\hline \\[-1.8ex] 
+		(Intercept) & $2.853$ & $0.103$ & $27.592$ & $0$ \\ 
+		leageBundesliga & $0.093$ & $0.053$ & $1.770$ & $0.077$ \\ 
+		leageLaliga & $$-$0.007$ & $0.048$ & $$-$0.138$ & $0.890$ \\ 
+		leageLigue1 & $0.036$ & $0.048$ & $0.742$ & $0.458$ \\ 
+		leageSerieA & $0.004$ & $0.048$ & $0.089$ & $0.929$ \\ 
+		SoT & $0.005$ & $0.001$ & $6.503$ & $0$ \\ 
+		PK & $0.016$ & $0.007$ & $2.244$ & $0.025$ \\ 
+		FK & $$-$0.003$ & $0.003$ & $$-$0.993$ & $0.321$ \\ 
+		Att.3rd.T & $$-$0.00001$ & $0.00003$ & $$-$0.283$ & $0.777$ \\ 
+		Succ.Drib & $$-$0.0005$ & $0.0003$ & $$-$1.655$ & $0.098$ \\ 
+		ShortAT\_Pass & $0.00003$ & $0.00002$ & $1.885$ & $0.059$ \\ 
+		NumAtt & $0.073$ & $0.015$ & $4.719$ & $0.00000$ \\ 
+		\hline \\[-1.8ex] 
+	\end{tabular} 
+\end{table}
+\end{frame}
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
